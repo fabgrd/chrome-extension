@@ -1,0 +1,63 @@
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 250px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.mute-button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+.unmute-button {
+  background-color: #0077c2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.mute-button:disabled,
+.unmute-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.mute-button:hover {
+  background-color: #ff3333;
+}
+.unmute-button:hover {
+  background-color: #0060a8;
+}

@@ -1,9 +1,17 @@
 {
-    "name": "My extension",
+    "name": "Chut",
     "version": "1.0.0",
-    "description": "Cute little extension",
+    "description": "This extension allows you to mute or unmute all tabs in your Chrome browser with one click.",
     "manifest_version": 3,
+    "permissions": [
+        "tabs"
+    ],
     "action": {
         "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
     }
 }
