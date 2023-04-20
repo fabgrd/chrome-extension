@@ -27,7 +27,7 @@ function Popup() {
   return (
     <div className="popup-container">
       <img className="logo" src={logo} />
-      <h1>Chut</h1>
+      <h1>Shhht</h1>
       <p>
         Mute or unmute all tabs in your Chrome browser with one click.
       </p>
